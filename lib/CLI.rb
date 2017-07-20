@@ -3,8 +3,6 @@ class CLI
   def call
       puts "Would you like to play with 0, 1, or 2 players?"
         number_of_players = gets.strip.to_i
-      #puts "Which player should go first and be 'X'?"
-        #player_1 = gets.strip
       if number_of_players == 1
         puts "Should player 1 be a computer or a human?"
         answer = gets.strip.downcase
